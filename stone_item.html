@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初糖</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .stone{
+            margin: 200px auto;
+        }
+        .wrap{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .stone_item{
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .stone_item .pic{
+            width: 540px;
+            box-shadow: 1px 1px 5px #ddd;
+        }
+        .stone_item .pic img{
+            width: 100%;
+        }
+        .stone_item .txt{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            width: 540px;
+            padding-left: 15px;
+        }
+        .stone_item .txt h3{
+            font-size: 36px;
+        }
+        .stone_item .txt span{
+            font-size: 24pt;
+            color: crimson;
+        }
+        .stone_item button{
+            width: 100%;
+            height: 36px;
+            background-color: #fbba59;
+            border: none;
+            border-radius: 20px;
+        }
+        .stone_item button:hover{
+            background-color: #a94719;
+            border: none;
+            color: #fff;
+        }
+        .stone_more h2{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    
+    <nav class="header">
+        <a href="index.html" class="logo">
+            <img src="pic/logo.png" alt="Logo">
+        </a>
+        <div class="item">
+            <ul class="nav_ul">
+                <li>
+                    <a href="about.html">關於黑糖</a></li>
+                <li>
+                    <a href="news.html">最新消息</a> </li>
+                <li>
+                    <a href="stone.html">線上購買</a> </li>
+                <li>
+                    <a href="contact.html">聯絡我們</a> </li>
+            </ul>
+            <div class="item_btn"><a href="">加入會員</a></div>
+            <div class="item_btn"><a href="login.html">登入</a></div>
+        </div>       
+    </nav>
+        
+    <section class="stone">
+        <div class="wrap">
+            <div class="stone_item">
+                <div class="pic">
+                    <img src="pic/sugarbox2.png">
+                </div>   
+                <div class="txt">
+                    <h3>黑糖大禮盒</h3>
+                    <p>三種口味(黃金地瓜/黑糖薑母/黑木耳黑糖)及一罐原味黑糖(陶罐裝)</p>
+                    <span>NT.800</span>
+                    <div class="txt_buttun">                    
+                        數量<input type="number" name="ticketNum" value="0" style="width:100px; height: 45px; text-align: center;" >
+                    </div>
+                    <button>馬上購買</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="stone_more">
+        <h2>其他商品<hr></h2>
+        <div class="wrap">
+            <div class="stone_more_item">
+            <a href=""><img src="pic/sugarbox.png"></a>
+            <h3>黑糖禮盒</h3>
+            <span>NT.800</span>
+            </div>
+            <div class="stone_more_item">
+            <a href=""><img src="pic/sugarbox2.png"></a>
+            <h3>黑糖大禮盒</h3>
+            <span>NT.1200</span>
+            </div>
+            <div class="stone_more_item">
+            <a href=""><img src="pic/sugarbox_mid.png"></a>
+            <h3>黑糖單種口味</h3>
+            <span>每入NT.200</span>
+            </div>
+            <div class="stone_more_item">
+            <a href=""><img src="pic/sugarbox_mid.png"></a>
+            <h3>黑糖單種口味</h3>
+            <span>每入NT.200</span>
+            </div>
+        </div>
+    </section>
+        
+<div class="footer">
+    <div class="footer_txt">
+        最新消息|關於黑糖|聯絡我們|電話:09-8765-4321|Email:thefirstsugar@gmail.com
+    </div>
+    <div class="footer_copyright">
+        Copyright ©2021 TheFirstSugar. All rights reserved.
+    </div>
+</div>
+</div>
+</body>
+</html>

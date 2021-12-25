@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>初糖</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .contact{
+            margin: 150px 0;
+        }
+        .contact h2{
+            text-align: center;
+        }
+        .contact_item img{
+            width: 100px;
+        }
+        .contact_wrap{
+            display: flex;
+            justify-content: center;
+            margin: 60px 0;
+        }
+        .contact_item{
+            margin: 0 15px;
+        }
+        
+        #myform{
+            margin:50px auto;
+            padding: 30px;
+            border-radius: 15px;
+            text-align: left;
+            width: 540px;
+            background-color: #fad6b1;
+            
+        }
+        #myform fieldset{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border: none;
+        }
+        #myform p{
+            margin: 1.5em 0;
+        }
+        .submit{
+            width: 490px;
+            font-size: 24px;
+            border: none;
+            transition: 1s;    
+        }
+        .submit:hover{
+            width: 490px;
+            font-size: 24px;
+            border: none;
+            background-color:#A94719;
+            color: #fff;    
+        }
+    </style>
+</head>
+<body>
+<div class="page">
+    
+    <nav class="header">
+        <a href="index.html" class="logo">
+            <img src="pic/logo.png" alt="Logo">
+        </a>
+        <div class="item">
+            <ul class="nav_ul">
+                <li>
+                    <a href="about.html">關於黑糖</a></li>
+                <li>
+                    <a href="news.html">最新消息</a> </li>
+                <li>
+                    <a href="stone.html">線上購買</a> </li>
+                <li>
+                    <a href="contact.html">聯絡我們</a> </li>
+            </ul>
+            <div class="item_btn"><a href="">加入會員</a></div>
+            <div class="item_btn"><a href="login.html">登入</a></div>
+        </div>
+            
+    </nav>
+
+    <section class="contact">
+        <h2>聯絡我們</h2>
+        <div class="contact_wrap">
+            <div class="contact_item">
+                <a href=""><img src="pic/facebook.png" alt=""></a>
+            </div>
+            <div class="contact_item">
+                <a href=""><img src="pic/instagram.png" alt=""></a>
+            </div>
+            <div class="contact_item">
+                <a href=""><img src="pic/line.png" alt=""></a>
+            </div>
+            <div class="contact_item">
+                <a href=""><img src="pic/youtube.png" alt=""></a>
+            </div>
+        </div>
+    </section>
+        
+    <form id="myform">
+        <h2>意見回饋</h2>
+        <fieldset>
+            <p>姓名:
+                <input class="special" type="text" name="name">
+            </p>
+            <p>性别:
+                <input class="radio" type="radio"  name="sex" value="male">
+                男
+                <input class="radio" type="radio"  name="sex" value="female">
+                女 </p>
+            <p>Email:
+                <input  class="special" type="text" name="email">
+            </p>
+            
+            <p>意見回饋:<br>
+                <textarea name="message" cols="65" rows="10"></textarea>
+            </p>
+            <button type="submit" class="submit">送出</button>
+            <p >
+            </p>
+        </fieldset>
+    </form>
+    
+<div class="footer">
+    <div class="footer_txt">
+        最新消息|關於黑糖|聯絡我們|電話:09-8765-4321|Email:thefirstsugar@gmail.com
+    </div>
+    <div class="footer_copyright">
+        Copyright ©2021 TheFirstSugar. All rights reserved.
+    </div>
+</div>
+</div>
+</body>
+</html>
